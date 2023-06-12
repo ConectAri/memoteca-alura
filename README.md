@@ -1,2 +1,1 @@
-# memoteca-alura
-Projeto em Angular Alura
+O Angular foi criado pela Google e é um dos frameworks (estruturas de código, em português) para front-end mais utilizados atualmente. De acordo com uma pesquisa feita em 2021 pelo site Stack Overflow, o Angular está entre os 3 frameworks mais utilizados por pessoas desenvolvedoras profissionais. Forbes, Gmail, Paypal e Samsung são apenas alguns exemplos de aplicações que utilizaram o Angular em seu desenvolvimento.
