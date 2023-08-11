@@ -1,0 +1,22 @@
+{
+  "pensamentos": [
+    {
+      "id": 1,
+      "conteudo": "O temor do Senhor é a  instrução da sabedoria, e a humildade procede a honrra",
+      "autoria": "Provérbios 15:33",
+      "modelo": "modelo1"
+    },
+    {
+      "conteudo": "Eu amo Jesus",
+      "autoria": "Ariane",
+      "modelo": "modelo1",
+      "id": 8
+    },
+    {
+      "conteudo": "Porque melhor é a sabedoria do que joias e de tudo o que se deseja nada se pode comparar com ela.",
+      "autoria": "Provérbios 8:11",
+      "modelo": "modelo1",
+      "id": 9
+    }
+  ]
+}

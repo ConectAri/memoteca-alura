@@ -1,0 +1,25 @@
+import { PensamentoService } from './../../../../../backend/componentes/pensamentos/pensamento.service';
+import { Component, OnInit } from '@angular/core';
+import { Pensamento } from '../../pensamentos/pensamento';
+
+@Component({
+  selector: 'app-listar-pensamento',
+  templateUrl: './listar-pensamento.component.html',
+  styleUrls: ['./listar-pensamento.component.css']
+})
+export class ListarPensamentoComponent implements OnInit{
+
+  //Atributo que se chama listaPesamentos
+
+  listaPensamentos: Pensamento[] = [];
+
+  constructor(private service: PensamentoService) { }
+
+  ngOnInit(): void {
+    this.service.listar().subscribe((listaPensamentos) => {
+      this.listaPensamentos = listaPensamentos;
+  })
+
+}
+
+}
